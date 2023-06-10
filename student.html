@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student_reigistration_form</title>
+
+    <link rel ="stylesheet" type="text/css" href="register.css"/>
+    
+</head>
+<body>
+     <div class="register">
+
+     <h1> Register form for Students</h1>
+     <form action="student.php" method="post">
+ 
+ <label for="username">User_name:</label>
+ <input type="text" name="username" placeholder="Enter your Username" id = "username" require>
+ <label for="password">Password:</label>
+ <input type="password" name="password" placeholder="Enter your password" id = "password" require>
+ <label for="email">Email_id:</label>
+ <input type="email" name="email" placeholder="Enter your Email_Id" id = "email" require>
+ <label for="address">Address:</label>
+ <input type="text" name="address" placeholder="Enter your address" id = "address" require>
+ <label for="contact">Contact_num:</label>
+ <input type="text" name="contact" placeholder="Enter your contact number" id = "contact" require><br><br>
+ <label for="syllabus">Syllabus:</label> <br>
+ <input type="text" name="syllabus" placeholder="Enter your Syllabus" id = "syllabus" require>
+ <input type="submit" value="register">
+ <h2>If you are already register </h2>  <br>
+ <button type ="submit" ><a href="student_login.php">login_page</a> </button>
+
+
+     </form>
+     </div>
+</body>
+</html>

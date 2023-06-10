@@ -1,0 +1,206 @@
+body {
+
+    background: darkkhaki;
+
+    display: flex;
+
+
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family: cursive;
+
+    box-sizing: padding-box;
+    box-shadow: inset;
+
+}
+
+form {
+
+    width: 800px;
+    height: 400px;
+
+    border: 3px solid rgb(177, 142, 142);
+
+    padding: 20px;
+
+    background: rgb(207, 206, 193);
+
+    border-radius: 40px;
+
+    text-align: center;
+    
+
+}
+
+h2 {
+    
+    color: chartreuse;
+    text-align: center;
+
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-shadow: #888;
+
+    /* text-decoration:dotted;
+    text-transform: capitalize;
+    text-overflow: ellipsis; */
+
+}
+
+input {
+
+    display: block;
+
+    border: 2px solid darkkhaki;
+    color: rgb(163, 38, 38);
+
+    background-color: antiquewhite;
+
+    width: 60%;
+
+    padding: 10px;
+
+    margin: 10px auto;
+
+    border-radius: 15px;
+    
+
+}
+
+label {
+    color: rgb(221, 17, 61);
+
+    font-size: 18px;
+    padding: 10px;
+    
+
+}
+
+button {
+
+    float: left;
+
+    width: 200px; 
+    
+    background: rgb(35, 174, 202);
+
+    padding: 10px 10px;
+    margin: 15px;
+    
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+    
+
+    align-content: left;
+
+
+    color: #fff;
+
+    border-radius: 15px;
+
+    margin-right: 10px;
+
+    border: none;
+
+
+}
+ button a {
+
+
+    width: 200px; 
+    
+    background: rgb(35, 174, 202);
+
+    padding: 10px 10px;
+    margin: 15px;
+    
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+    
+
+    align-content: right;
+
+
+    color: #fff;
+
+    border-radius: 15px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+button:hover{
+
+    opacity: .10;
+    background-color:dimgray;
+    color: black;
+
+}
+button a :hover{
+
+    opacity: .10;
+    background-color:dimgray;
+    color: black;
+
+}
+
+.error {
+
+   background: #F2DEDE;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 50%;
+
+   border-radius: 15px;
+
+   margin: 20px auto;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(134, 3, 3);
+
+}
+
+a {
+
+    float: right;
+
+    background: rgb(183, 225, 233);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
